@@ -1,0 +1,24 @@
+Still — third-party notices
+
+RAW processing: rawconvert-wasm 0.1.1, MIT wrapper.
+https://github.com/anthonygreco/rawconvert-wasm
+Corresponding wrapper and build source: https://github.com/anthonygreco/rawconvert-wasm/tree/v0.1.1
+See RAWCONVERT-LICENSE.txt.
+
+LibRaw 0.22.1 is used under its CDDL 1.0 license.
+Unmodified source: https://github.com/LibRaw/LibRaw/tree/0.22.1
+Build scripts: https://github.com/anthonygreco/rawconvert-wasm
+See LIBRAW-CDDL.txt.
+
+HEIC processing: heic-to 1.6.6, LGPL 3.0.
+https://github.com/hoppergee/heic-to
+Corresponding source and build scripts: https://github.com/hoppergee/heic-to
+This includes libheif 1.23.6 and libde265. See HEIC-LICENSE.txt for their notices.
+The JavaScript bundle is shipped unmodified and may be replaced with a modified compatible version.
+
+Sample landscape image: https://images.unsplash.com/photo-1464822759023-fed622ff2c3b
+Unsplash license: https://unsplash.com/license
+
+Fonts: DM Sans and Manrope, SIL Open Font License, supplied by Google Fonts.
+https://github.com/google/fonts/tree/main/ofl/dmsans
+https://github.com/google/fonts/tree/main/ofl/manrope

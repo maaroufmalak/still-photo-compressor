@@ -1,0 +1,21 @@
+declare function importScripts(...urls: string[]): void;
+declare function createRawConvertCore(moduleArgs?: Record<string, unknown>): Promise<any>;
+declare const workerSelf: {
+    onmessage: ((e: MessageEvent) => void) | null;
+    postMessage(msg: any, transfer?: Transferable[]): void;
+};
+type WorkerRequest = import('./worker-types.js').WorkerRequest;
+type WorkerResponse = import('./worker-types.js').WorkerResponse;
+type InternalProcessingOptions = import('./types.js').InternalProcessingOptions;
+type RawConvertCoreModule = import('./types.js').RawConvertCoreModule;
+type RawProcessorInstance = import('./types.js').RawProcessorInstance;
+declare const COLOR_SPACE_MAP: Record<string, number>;
+declare const INTERPOLATION_MAP: Record<string, number>;
+declare let module: RawConvertCoreModule | null;
+declare let processor: RawProcessorInstance | null;
+declare function respond(id: number, result: any, transfer?: Transferable[]): void;
+declare function respondError(id: number, error: string): void;
+declare function toInternalOptions(opts?: any): InternalProcessingOptions;
+declare function loadFile(data: ArrayBuffer, filename?: string): any;
+declare function extractThumbnail(): any;
+declare function processImage(opts?: any): any;
