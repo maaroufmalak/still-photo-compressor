@@ -2,9 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="theme-color" content="#203c32"><meta name="description" content="Turn your iPhone RAW and HEIC photos into beautiful, lighter WebP and JPEG images. Compress to 2 or 3 MB, privately in your browser.">
-  <title>Still — A little lighter. Just as beautiful.</title>
+  <meta name="theme-color" content="#203c32">
+  <title>Free Image &amp; RAW Image Compressor Online | Still</title>
+  <meta name="description" content="Free image and RAW image compressor for everyone. Convert iPhone DNG, HEIC, JPG and PNG to WebP or JPEG. Target 2 MB, 3 MB or a custom size. No sign-up.">
+  <meta name="robots" content="index, follow, max-image-preview:large">
+  <meta name="author" content="Maarouf Malak">
+  <link rel="canonical" href="https://maaroufmalak.github.io/still-photo-compressor/">
+  <link rel="sitemap" type="application/xml" href="./sitemap.xml">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Still">
+  <meta property="og:title" content="Still — Free Image &amp; RAW Image Compressor">
+  <meta property="og:description" content="Completely free. For everyone. Compress RAW, DNG, HEIC, JPG and PNG photos privately in your browser. No sign-up or subscriptions.">
+  <meta property="og:url" content="https://maaroufmalak.github.io/still-photo-compressor/">
+  <meta property="og:image" content="https://maaroufmalak.github.io/still-photo-compressor/social-card.png">
+  <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Still: completely free image and RAW image compression for everyone. Built by Maarouf Malak and GPT-6.1 Sol.">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Still — Free Image &amp; RAW Image Compressor">
+  <meta name="twitter:description" content="Completely free. For everyone. Make RAW, HEIC, JPG and PNG photos website-ready. No sign-up. Your photos stay on your device.">
+  <meta name="twitter:image" content="https://maaroufmalak.github.io/still-photo-compressor/social-card.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="icon" href="./favicon.svg" type="image/svg+xml"><link rel="stylesheet" href="./style.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {"@type":"WebSite","@id":"https://maaroufmalak.github.io/still-photo-compressor/#website","name":"Still","url":"https://maaroufmalak.github.io/still-photo-compressor/","inLanguage":"en"},
+      {
+        "@type":"WebApplication",
+        "@id":"https://maaroufmalak.github.io/still-photo-compressor/#app",
+        "name":"Still — Free Image and RAW Image Compressor",
+        "url":"https://maaroufmalak.github.io/still-photo-compressor/",
+        "description":"A completely free image compressor for everyone. Develop supported RAW and DNG photos, convert HEIC, and compress JPEG, PNG and WebP to a 2 MB, 3 MB or custom target privately in your browser.",
+        "applicationCategory":"MultimediaApplication",
+        "operatingSystem":"Windows, macOS, Linux, iOS, Android",
+        "browserRequirements":"A current browser with WebAssembly, OffscreenCanvas and createImageBitmap support. RAW codec support varies; large RAW files work best on desktop.",
+        "isAccessibleForFree":true,
+        "offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},
+        "creator":{"@type":"Person","name":"Maarouf Malak","url":"https://github.com/maaroufmalak"},
+        "creditText":"Built by Maarouf Malak and GPT-6.1 Sol",
+        "image":"https://maaroufmalak.github.io/still-photo-compressor/social-card.png",
+        "featureList":["Free image compression with no account","Supported RAW and DNG development","HEIC to JPEG or WebP conversion","2 MB, 3 MB and custom size targets","Batch compression and ZIP downloads","On-device photo processing"],
+        "inLanguage":"en"
+      }
+    ]
+  }
+  </script>
 </head>
 <body>
 <svg class="svg-library" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><defs>
@@ -24,16 +67,16 @@
   <a class="brand" href="./" aria-label="Still home"><svg><use href="#i-aperture"/></svg><span>still<span class="brand-dot">.</span></span></a>
   <div class="sidebar-label">YOUR PHOTO WORKSPACE</div>
   <nav aria-label="Main navigation"><a class="nav-item active" href="#workspace"><svg><use href="#i-sliders"/></svg>Compressor<span class="nav-dot"></span></a><button class="nav-item" id="help-button"><svg><use href="#i-info"/></svg>How it works<svg class="nav-arrow"><use href="#i-arrow"/></svg></button></nav>
-  <div class="sidebar-bottom"><div class="small-orbit"><svg><use href="#i-leaf"/></svg></div><h2>Less weight.<br>More possibility.</h2><p>Your best shots deserve<br>a faster website.</p><div class="sidebar-private"><svg><use href="#i-lock"/></svg> A space just for you</div></div>
+  <div class="sidebar-bottom"><div class="small-orbit"><svg><use href="#i-leaf"/></svg></div><h2>For everyone.<br>Free to use.</h2><p>No subscriptions.<br>No sign-up. No fees.</p><div class="sidebar-private"><svg><use href="#i-lock"/></svg> Free. Private. For everyone.</div></div>
 </aside>
 <main id="workspace">
   <header class="topbar"><div>Workspace <span>/</span> <strong>Photo compressor</strong></div><button class="privacy-badge" id="privacy-button"><span></span> On-device processing <svg><use href="#i-lock"/></svg></button></header>
   <div class="page-content">
-    <section class="intro"><div><div class="eyebrow"><span></span> SMALLER FILES. BIGGER POSSIBILITIES.</div><h1>A little lighter.<br><span>Just as beautiful.</span></h1><p>From iPhone RAW to website-ready.<br>Keep the detail. Leave the weight behind.</p></div><div class="size-illustration" aria-label="Illustration: a large original becomes a small web image"><div class="file-swatch swatch-raw"><svg><use href="#i-image"/></svg><span>ORIGINAL</span><strong>100<small> MB</small></strong><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><svg class="swatch-arrow"><use href="#i-arrow"/></svg><div class="file-swatch swatch-web"><svg><use href="#i-leaf"/></svg><span>WEB-READY</span><strong>2<small> MB</small></strong><div class="swatch-foot">Same moment. Lighter.</div></div></div></section>
+    <section class="intro"><div><div class="eyebrow"><span></span> COMPLETELY FREE. FOR EVERYONE.</div><h1>Free image &amp; RAW<br><span>photo compressor.</span></h1><p>Make iPhone RAW, DNG, HEIC, JPG and PNG photos website-ready.<br>No sign-up. No subscriptions. Your photos stay on your device.</p><div class="creator-credit">Built by <a href="https://github.com/maaroufmalak" target="_blank" rel="noreferrer">Maarouf Malak</a> and <span>GPT-6.1 Sol</span></div></div><div class="size-illustration" aria-label="Illustration: a large original becomes a small web image"><div class="file-swatch swatch-raw"><svg><use href="#i-image"/></svg><span>ORIGINAL</span><strong>100<small> MB</small></strong><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><svg class="swatch-arrow"><use href="#i-arrow"/></svg><div class="file-swatch swatch-web"><svg><use href="#i-leaf"/></svg><span>WEB-READY</span><strong>2<small> MB</small></strong><div class="swatch-foot">Same moment. Lighter.</div></div></div></section>
     <section class="workbench" aria-label="Photo compression workspace">
       <div class="upload-panel panel"><div class="panel-heading"><h2><span class="step">01</span> Add your photos</h2><span class="quiet-label">ONE OR A WHOLE BATCH</span></div>
         <div class="dropzone" id="dropzone"><input id="file-input" type="file" multiple accept=".dng,.raw,.cr2,.cr3,.nef,.arw,.raf,.rw2,.orf,.pef,.heic,.heif,.jpg,.jpeg,.png,.webp,.avif" aria-label="Choose photos">
-          <div class="photo-stack" aria-hidden="true"><div class="photo-back"></div><div class="photo-front"><img src="./sample.jpg" alt=""/><span><i></i> A little room to breathe.</span></div><span class="stack-plus">+</span></div>
+          <div class="photo-stack" aria-hidden="true"><div class="photo-back"></div><div class="photo-front"><img src="./sample-thumb.jpg" width="320" height="213" alt="" decoding="async"/><span><i></i> A little room to breathe.</span></div><span class="stack-plus">+</span></div>
           <h3>Drop your big, beautiful photos here.</h3><p>Or choose them from your device.</p><button class="primary browse-button" id="browse-button"><svg><use href="#i-upload"/></svg> Choose photos</button>
           <div class="supported">iPhone RAW / DNG <b>·</b> HEIC <b>·</b> JPG <b>·</b> PNG <b>·</b> WebP</div><div class="limit-note">Up to 200 MB per photo · 30 photos per batch</div>
         </div>
@@ -52,7 +95,19 @@
       <div class="empty-state" id="empty-state"><svg><use href="#i-image"/></svg><span>Your photos will appear here. Your originals stay exactly as they are.</span><span class="empty-line"></span></div>
       <div class="file-list" id="file-list"></div><div class="summary" id="summary" hidden></div>
     </section>
-    <footer><span><svg><use href="#i-leaf"/></svg> A lighter web starts with a single photo.</span><button id="quality-button">A note on quality <svg><use href="#i-info"/></svg></button></footer>
+    <section class="about-compressor" aria-labelledby="about-heading">
+      <div class="about-intro"><div><div class="eyebrow">A LIGHTER WEB, OPEN TO EVERYONE</div><h2 id="about-heading">A free image compressor.<br>With room for your RAW photos.</h2></div><p>Still helps photographers, creators, students and website owners make large photos easier to share. Use it as an online RAW image compressor for supported camera files, a HEIC to JPEG converter, or a simple way to reduce JPG, PNG and WebP file sizes. It is completely free for everyone, with no account or subscription required.</p></div>
+      <div class="how-steps" aria-label="How to compress photos"><div><span>01 / ADD</span><h3>Start with your originals.</h3><p>Drop one photo or a batch of up to 30. Supported RAW and DNG files are developed into viewable images; HEIC, JPG, PNG and WebP photos work too.</p></div><div><span>02 / COMPRESS</span><h3>Choose the size you need.</h3><p>Compress images to a 2 MB, 3 MB or custom maximum. Choose WebP or JPEG and a longest edge, then let Still balance encoding quality and dimensions.</p></div><div><span>03 / SAVE</span><h3>Check the detail. Download.</h3><p>Compare the decoded original with the compressed photo, then download each export or a ZIP of the batch. Your original files stay untouched.</p></div></div>
+      <div class="faq"><h2>Image compression, explained.</h2>
+        <details><summary>Is Still completely free for everyone?</summary><p>Yes. Still is completely free to use. There is no sign-up, subscription or payment required to compress and download photos. You can use it for personal photos, school projects or business websites. Browser limits still apply: up to 30 photos per batch and 200 MB per photo.</p></details>
+        <details><summary>Can I use Still as a RAW image compressor for iPhone photos?</summary><p>Yes, for supported RAW and DNG variants. Still develops the RAW photo and exports a smaller WebP or JPEG for your website; it does not produce a smaller editable RAW file. iPhone 12 Pro ProRAW DNG has been tested. Some newer JPEG XL-compressed ProRAW files may need a full-quality JPEG export from Apple Photos or Lightroom first. The app reports unsupported files rather than substituting a small thumbnail.</p></details>
+        <details><summary>How do I compress an image to 2 MB or 3 MB?</summary><p>Add your photos, select the 2 MB or 3 MB target, choose WebP or JPEG, and click Compress photos. The target is a maximum, so an export may be smaller. Still prioritizes high encoding quality and reduces dimensions when needed. If you select Original dimensions, it preserves the pixel dimensions and warns you when the output exceeds the target. A custom target can be set from 0.1 to 20 MB.</p></details>
+        <details><summary>Can I compress RAW images without losing quality?</summary><p>WebP and JPEG are lossy formats. They cannot retain all RAW editing data or HDR range. Still aims to preserve visible detail at a much smaller file size, and its before-and-after preview helps you inspect the result. Keep your original RAW files as master copies and inspect important downloads at full size.</p></details>
+        <details><summary>Can I convert HEIC to JPEG or WebP for free?</summary><p>Yes. Add your HEIC or HEIF photos, choose JPEG or WebP, and compress. This makes supported iPhone photos usable in websites and everyday photo workflows. Codec support depends on the file and browser; the app tells you if a photo cannot be read.</p></details>
+        <details><summary>Are my photos uploaded to a server?</summary><p>No. Image decoding, resizing, compression and ZIP creation happen on your device in the browser. Photo contents are not uploaded. The page loads its app files and sample image from GitHub Pages and its fonts from Google Fonts. Save your downloads before closing the tab, because exports are not stored in an account.</p></details>
+      </div>
+    </section>
+    <footer class="site-footer"><div><span><svg><use href="#i-leaf"/></svg> Completely free. For everyone.</span><p>Built by <a href="https://github.com/maaroufmalak" target="_blank" rel="noreferrer">Maarouf Malak</a> and GPT-6.1 Sol</p></div><div class="footer-links"><a href="https://github.com/maaroufmalak/still-photo-compressor" target="_blank" rel="noreferrer">View on GitHub <svg><use href="#i-arrow"/></svg></a><button id="quality-button">A note on quality <svg><use href="#i-info"/></svg></button></div></footer>
   </div>
 </main>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>

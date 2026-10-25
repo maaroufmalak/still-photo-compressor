@@ -6,6 +6,10 @@ A static, browser-local photo compressor. No photo uploads, backend processing, 
 
 The public website is free to use and does not require a login. Photo contents stay on the visitor's device.
 
+Built by **Maarouf Malak and GPT-6.1 Sol**. Completely free, for everyone.
+
+Search metadata, a sitemap and visible FAQs are included. See [SEARCH-VISIBILITY.md](SEARCH-VISIBILITY.md) for the owner's Google Search Console verification and indexing steps. Search rankings are not guaranteed.
+
 ## Publishing
 
 Push changes to `main`. The GitHub Pages workflow checks the application JavaScript and publishes `dist/`. All asset and worker URLs are relative, so the application works under the GitHub Pages repository path.
