@@ -1,1 +1,10 @@
-{"name":"still-photo-compressor","private":true,"type":"module","scripts":{"dev":"node server.mjs","check":"node --check dist/app.js && node --check dist/compressor.js && node --check dist/zip.js"}}
+{
+  "name": "still-photo-compressor",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node server.mjs",
+    "check": "node --check dist/app.js && node --check dist/compressor.js && node --check dist/zip.js && node --check dist/video.js && node --check dist/video-options.js",
+    "test": "node --test tests/video.test.mjs"
+  }
+}

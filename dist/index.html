@@ -62,17 +62,18 @@
 <symbol id="i-check" viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></symbol>
 <symbol id="i-x" viewBox="0 0 24 24"><path d="m6 6 12 12M6 18 18 6"/></symbol>
 <symbol id="i-leaf" viewBox="0 0 24 24"><path d="M5 19c-4-9 2-13 15-15 0 13-4 19-13 14m-3 3L16 9"/></symbol>
-</defs></svg>
+<symbol id="i-video" viewBox="0 0 24 24"><rect x="3" y="5" width="14" height="14" rx="3"/><path d="m17 10 4-3v10l-4-3M9 9l4 3-4 3Z"/></symbol></defs></svg>
 <aside class="sidebar">
   <a class="brand" href="./" aria-label="Still home"><svg><use href="#i-aperture"/></svg><span>still<span class="brand-dot">.</span></span></a>
-  <div class="sidebar-label">YOUR PHOTO WORKSPACE</div>
-  <nav aria-label="Main navigation"><a class="nav-item active" href="#workspace"><svg><use href="#i-sliders"/></svg>Compressor<span class="nav-dot"></span></a><button class="nav-item" id="help-button"><svg><use href="#i-info"/></svg>How it works<svg class="nav-arrow"><use href="#i-arrow"/></svg></button></nav>
+  <div class="sidebar-label">YOUR CREATIVE WORKSPACE</div>
+  <nav aria-label="Main navigation"><a class="nav-item active" href="#workspace"><svg><use href="#i-sliders"/></svg>Photos<span class="nav-dot"></span></a><a class="nav-item" href="./video.html"><svg><use href="#i-video"/></svg>Videos <span class="nav-new">NEW</span></a><button class="nav-item" id="help-button"><svg><use href="#i-info"/></svg>How it works<svg class="nav-arrow"><use href="#i-arrow"/></svg></button></nav>
   <div class="sidebar-bottom"><div class="small-orbit"><svg><use href="#i-leaf"/></svg></div><h2>For everyone.<br>Free to use.</h2><p>No subscriptions.<br>No sign-up. No fees.</p><div class="sidebar-private"><svg><use href="#i-lock"/></svg> Free. Private. For everyone.</div></div>
 </aside>
 <main id="workspace">
   <header class="topbar"><div>Workspace <span>/</span> <strong>Photo compressor</strong></div><button class="privacy-badge" id="privacy-button"><span></span> On-device processing <svg><use href="#i-lock"/></svg></button></header>
   <div class="page-content">
     <section class="intro"><div><div class="eyebrow"><span></span> COMPLETELY FREE. FOR EVERYONE.</div><h1>Free image &amp; RAW<br><span>photo compressor.</span></h1><p>Make iPhone RAW, DNG, HEIC, JPG and PNG photos website-ready.<br>No sign-up. No subscriptions. Your photos stay on your device.</p><div class="creator-credit">Built by <a href="https://github.com/maaroufmalak" target="_blank" rel="noreferrer">Maarouf Malak</a> and <span>GPT-6.1 Sol</span></div></div><div class="size-illustration" aria-label="Illustration: a large original becomes a small web image"><div class="file-swatch swatch-raw"><svg><use href="#i-image"/></svg><span>ORIGINAL</span><strong>100<small> MB</small></strong><div class="mini-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div></div><svg class="swatch-arrow"><use href="#i-arrow"/></svg><div class="file-swatch swatch-web"><svg><use href="#i-leaf"/></svg><span>WEB-READY</span><strong>2<small> MB</small></strong><div class="swatch-foot">Same moment. Lighter.</div></div></div></section>
+    <div class="tool-switch" aria-label="Choose a tool"><a href="./" aria-current="page">Photo compressor</a><a href="./video.html"><svg><use href="#i-video"/></svg> Video compressor <span>NEW</span></a></div>
     <section class="workbench" aria-label="Photo compression workspace">
       <div class="upload-panel panel"><div class="panel-heading"><h2><span class="step">01</span> Add your photos</h2><span class="quiet-label">ONE OR A WHOLE BATCH</span></div>
         <div class="dropzone" id="dropzone"><input id="file-input" type="file" multiple accept=".dng,.raw,.cr2,.cr3,.nef,.arw,.raf,.rw2,.orf,.pef,.heic,.heif,.jpg,.jpeg,.png,.webp,.avif" aria-label="Choose photos">
@@ -104,6 +105,7 @@
         <details><summary>How do I compress an image to 2 MB or 3 MB?</summary><p>Add your photos, select the 2 MB or 3 MB target, choose WebP or JPEG, and click Compress photos. The target is a maximum, so an export may be smaller. Still prioritizes high encoding quality and reduces dimensions when needed. If you select Original dimensions, it preserves the pixel dimensions and warns you when the output exceeds the target. A custom target can be set from 0.1 to 20 MB.</p></details>
         <details><summary>Can I compress RAW images without losing quality?</summary><p>WebP and JPEG are lossy formats. They cannot retain all RAW editing data or HDR range. Still aims to preserve visible detail at a much smaller file size, and its before-and-after preview helps you inspect the result. Keep your original RAW files as master copies and inspect important downloads at full size.</p></details>
         <details><summary>Can I convert HEIC to JPEG or WebP for free?</summary><p>Yes. Add your HEIC or HEIF photos, choose JPEG or WebP, and compress. This makes supported iPhone photos usable in websites and everyday photo workflows. Codec support depends on the file and browser; the app tells you if a photo cannot be read.</p></details>
+        <details><summary>Can I compress videos or convert AVI and MOV to MP4?</summary><p>Yes. Open the <a href="./video.html">free video compressor</a> to convert supported AVI, MOV, MP4, M4V, WebM and MKV videos to MP4. Choose quality, resolution, frame rate and whether to keep audio. Videos are processed on your device, one at a time, up to 200 MB per file.</p></details>
         <details><summary>Are my photos uploaded to a server?</summary><p>No. Image decoding, resizing, compression and ZIP creation happen on your device in the browser. Photo contents are not uploaded. The page loads its app files and sample image from GitHub Pages and its fonts from Google Fonts. Save your downloads before closing the tab, because exports are not stored in an account.</p></details>
       </div>
     </section>

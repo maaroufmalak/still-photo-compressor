@@ -28,3 +28,5 @@ References:
 - https://developers.google.com/search/docs/fundamentals/seo-starter-guide
 - https://developers.google.com/search/docs/appearance/structured-data/software-app
 - https://developers.google.com/crawling/docs/robots-txt/create-robots-txt
+
+The video tool at `video.html` has its own canonical URL, video compression / AVI to MP4 / MOV to MP4 metadata, WebApplication structured data, visible FAQs and an entry in the same sitemap.

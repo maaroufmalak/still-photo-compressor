@@ -22,3 +22,11 @@ Unsplash license: https://unsplash.com/license
 Fonts: DM Sans and Manrope, SIL Open Font License, supplied by Google Fonts.
 https://github.com/google/fonts/tree/main/ofl/dmsans
 https://github.com/google/fonts/tree/main/ofl/manrope
+
+Video processing: @ffmpeg/ffmpeg 0.12.15 (MIT wrapper) and
+@ffmpeg/core 0.12.10 (GPL-2.0-or-later FFmpeg build with external libraries).
+Unmodified ESM JavaScript and single-thread WebAssembly from npm.
+MIT license: ffmpeg/WRAPPER-LICENSE.txt
+GPL license: ffmpeg/CORE-GPL-2.0.txt
+Corresponding source and build information: ffmpeg/SOURCES.txt
+Upstream release: https://github.com/ffmpegwasm/ffmpeg.wasm/releases/tag/v12.15

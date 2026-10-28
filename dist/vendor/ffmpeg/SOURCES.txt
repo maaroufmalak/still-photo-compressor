@@ -1,0 +1,41 @@
+ffmpeg.wasm — source and build information
+
+The shipped wrapper (@ffmpeg/ffmpeg 0.12.15) and single-thread core
+(@ffmpeg/core 0.12.10) are unmodified npm release files. Upstream's v12.15
+release explicitly includes these two package versions.
+
+Wrapper license: MIT; see WRAPPER-LICENSE.txt.
+Core license: GPL-2.0-or-later; see CORE-GPL-2.0.txt.
+Bundled dependency license texts are in licenses/. Complete source trees
+and build information are linked below.
+No warranty is provided by the upstream authors.
+
+Corresponding wrapper, FFmpeg modifications, build scripts and Dockerfile:
+https://github.com/ffmpegwasm/ffmpeg.wasm/tree/v12.15
+Download source: https://github.com/ffmpegwasm/ffmpeg.wasm/archive/refs/tags/v12.15.tar.gz
+Build instructions: https://github.com/ffmpegwasm/ffmpeg.wasm/blob/v12.15/CONTRIBUTING.md
+Exact build recipe: https://github.com/ffmpegwasm/ffmpeg.wasm/blob/v12.15/Dockerfile
+
+Source dependencies selected by that build recipe:
+FFmpeg n5.1.4: https://github.com/FFmpeg/FFmpeg/tree/n5.1.4
+x264: https://github.com/ffmpegwasm/x264/tree/4-cores
+x265: https://github.com/ffmpegwasm/x265/tree/3.4
+libvpx: https://github.com/ffmpegwasm/libvpx/tree/v1.13.1
+lame: https://github.com/ffmpegwasm/lame/tree/master
+Ogg: https://github.com/ffmpegwasm/Ogg/tree/v1.3.4
+theora: https://github.com/ffmpegwasm/theora/tree/v1.1.1
+opus: https://github.com/ffmpegwasm/opus/tree/v1.3.1
+vorbis: https://github.com/ffmpegwasm/vorbis/tree/v1.3.3
+zlib: https://github.com/ffmpegwasm/zlib/tree/v1.2.11
+libwebp: https://github.com/ffmpegwasm/libwebp/tree/v1.3.2
+freetype: https://github.com/ffmpegwasm/freetype2/tree/VER-2-10-4
+fribidi: https://github.com/fribidi/fribidi/tree/v1.0.9
+harfbuzz: https://github.com/harfbuzz/harfbuzz/tree/5.2.0
+libass: https://github.com/libass/libass/tree/0.15.0
+zimg: https://github.com/sekrit-twc/zimg/tree/release-3.0.5
+Emscripten SDK 3.1.40: https://github.com/emscripten-core/emsdk/tree/3.1.40
+
+The engine can be replaced by a compatible modified build at
+core/ffmpeg-core.js and core/ffmpeg-core.wasm. The wrapper can be replaced
+in wrapper/. See upstream's build recipe for compiling the single-thread
+ES module distribution with Emscripten 3.1.40.
